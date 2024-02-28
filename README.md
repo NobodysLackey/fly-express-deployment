@@ -6,10 +6,10 @@
 
 ## Objectives
 
-- Learn how to do a one-time install of the Fly.io CLI globally on your machine
-- Set up Fly.io environment variables
-- Learn how to set up a custom domain (optional)
-- Create a custom build script (optional)
+- Learn how to do a one-time install and configuration of the Fly.io [CLI](#install-the-flyio-cli-tool) on your machine
+- Learn how to choose a [domain](#launch-your-server)
+- Set up Fly.io [environment](#setting-up-environment-variables) variables
+- [Deploy](#deploy-your-app)
 
 ## Why deploy with Fly.io?
 

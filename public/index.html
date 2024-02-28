@@ -33,12 +33,12 @@
       <h2>Objectives</h2>
       <ul>
         <li>
-          Learn how to do a one-time install of the Fly.io CLI globally on your
-          machine
+          Learn how to do a one-time <a href="#fly-install">install</a> and
+          configuration of the Fly.io CLI on your machine
         </li>
-        <li>Set up Fly.io environment variables</li>
-        <li>Learn how to set up a custom domain (optional)</li>
-        <li>Create a custom build script (optional)</li>
+        <li>Learn how to choose a <a href="#fly-domain">domain</a></li>
+        <li>Set up Fly.io <a href="#fly-env">environment</a> variables</li>
+        <li><a href="#fly-deploy">Deploy</a></li>
       </ul>
 
       <h2>Why deploy with Fly.io?</h2>
@@ -69,7 +69,7 @@
         >.
       </p>
 
-      <h2>Install the Fly.io CLI Tool</h2>
+      <h2 id="fly-install">Install the Fly.io CLI Tool</h2>
 
       <p>In any directory in your terminal, run the following command:</p>
 
@@ -140,7 +140,7 @@
         </div>
       </div>
 
-      <h2>Launch Your Server</h2>
+      <h2 id="fly-domain">Launch Your Server</h2>
 
       <p>
         Navigate to the root directory of the project that you want to deploy.
@@ -169,7 +169,7 @@
         <code> https://expressdeployment.fly.dev/ </code>
       </div>
 
-      <h2>Setting Up Environment Variables</h2>
+      <h2 id="fly-env">Setting Up Environment Variables</h2>
 
       <p>
         Environment variables can be set up using the CLI by following this
@@ -191,7 +191,7 @@
         <a href="https://fly.io/dashboard">dashboard</a>.
       </p>
 
-      <h2>Deploy Your App</h2>
+      <h2 id="fly-domain">Deploy Your App</h2>
 
       <p>
         At this point, you're all ready to deploy your app. Run the following
