@@ -1,4 +1,4 @@
-# Express Deployment with fly.io
+# Express Deployment with Fly.io
 
 ![deploy](./public/images/readme-banner.png)
 
