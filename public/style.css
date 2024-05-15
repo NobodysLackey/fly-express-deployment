@@ -175,7 +175,7 @@ hr {
 }
 
 #node > img {
-  width: 400px;
+  width: 250px;
 }
 
 #fly {
@@ -183,7 +183,7 @@ hr {
 }
 
 #fly > img {
-  width: 400px;
+  width: 250px;
 }
 
 #express {
@@ -191,5 +191,5 @@ hr {
 }
 
 #express > img {
-  width: 400px;
+  width: 250px;
 }
