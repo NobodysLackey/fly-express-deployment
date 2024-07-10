@@ -151,7 +151,8 @@ hr {
 }
 
 .banner {
-  max-width: 90vw;
+  width: 90vw;
+  max-width: 800px;
 }
 
 .gif {
