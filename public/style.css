@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --main: #3a3a3a;
   --hover: #656565;
@@ -6,27 +8,11 @@
   --background: #e6e6e6;
 }
 
-@font-face {
-  font-family: 'p22mackinac-bold';
-  src: url('./fonts/p22mackinac-bold.woff2') format('woff2'),
-    url('./fonts/p22mackinac-bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'p22_mackinac-book';
-  src: url('./fonts/p22_mackinac-book.woff2') format('woff2'),
-    url('./fonts/p22_mackinac-book.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   margin: 0;
   background-color: var(--background);
   color: var(--main);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Raleway", sans-serif;
   width: 98vw;
 
   display: flex;
