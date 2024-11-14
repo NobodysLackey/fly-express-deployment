@@ -1,3 +1,11 @@
+:root {
+  --main: #3a3a3a;
+  --hover: #656565;
+  --highlight: #5d3deb;
+  --highlight-two: #aa63ec;
+  --background: #e6e6e6;
+}
+
 @font-face {
   font-family: 'p22mackinac-bold';
   src: url('./fonts/p22mackinac-bold.woff2') format('woff2'),
@@ -16,8 +24,8 @@
 
 body {
   margin: 0;
-  background-color: #e6e6e6;
-  color: #564740;
+  background-color: var(--background);
+  color: var(--main);
   font-family: Georgia, 'Times New Roman', Times, serif;
   width: 98vw;
 
@@ -27,21 +35,6 @@ body {
   align-items: center;
 }
 
-kbd {
-  background-color: #fbf3ed;
-  padding: 4px;
-  border: 1px solid #564740;
-  border-radius: 3px;
-  color: #564740;
-  font-weight: bold;
-}
-
-kbd:hover {
-  background-color: #564740;
-  color: #fbf3ed;
-  cursor: default;
-}
-
 main {
   width: 95vw;
   margin: 2vh 2vw;
@@ -49,11 +42,11 @@ main {
 
 a {
   text-decoration: none;
-  color: #5d3deb;
+  color: var(--highlight);
 }
 
 a:hover {
-  color: #aa63ec;
+  color: var(--highlight-two);
 }
 
 h2 {
@@ -61,7 +54,7 @@ h2 {
 }
 
 hr {
-  border: 2px solid #564740;
+  border: 2px solid var(--main);
 }
 
 .shadow {
@@ -74,7 +67,7 @@ hr {
   width: 350px;
   max-width: 90vw;
   height: 50px;
-  background-color: #564740;
+  background-color: var(--main);
   color: #f7e3d6;
   border: 2px solid #f7e3d6;
   border-radius: 5px;
@@ -87,7 +80,7 @@ hr {
 .copy {
   min-height: 25px;
   min-width: 25px;
-  border: 1px solid #80736b;
+  border: 1px solid var(--hover);
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -126,16 +119,16 @@ hr {
   display: inline;
   font-family: monospace;
   margin-right: 4px;
-  color: #b679ef;
+  color: var(--highlight-two);
   cursor: default;
 }
 
 .browser {
   width: max-content;
   height: 30px;
-  background-color: #e6e6e6;
-  color: #564740;
-  border: 2px solid #564740;
+  background-color: var(--background);
+  color: var(--main);
+  border: 2px solid var(--main);
   border-radius: 5px;
   padding: 10px;
   display: flex;
@@ -145,7 +138,7 @@ hr {
 }
 
 .image {
-  border: 2px solid #564740;
+  border: 2px solid var(--main);
   border-radius: 5px;
   max-width: 90vw;
 }
@@ -157,8 +150,8 @@ hr {
 
 .gif {
   width: 600px;
-  border: 2px solid #b679ef;
-  background-color: black;
+  border: 2px solid var(--highlight-two);
+  background-color: #000000;
   padding: 5px;
 }
 
@@ -172,25 +165,25 @@ hr {
 }
 
 #node {
-  max-width: 30vw;
+  max-width: 15vw;
 }
 
 #node > img {
-  width: 250px;
+  width: 15vw;
 }
 
 #fly {
-  max-width: 30vw;
+  max-width: 15vw;
 }
 
 #fly > img {
-  width: 250px;
+  width: 15vw;
 }
 
 #express {
-  max-width: 30vw;
+  max-width: 15vw;
 }
 
 #express > img {
-  width: 250px;
+  width: 15vw;
 }
